@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 
-const PORT = 9000;
+const PORT = process.env.PORT || 9000;
 
 const app = express();
 
